@@ -2,22 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6e3a243-7305-4c7b-b871-686154c73035" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/ce/wcaquino/dao/LocacaoDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/ce/wcaquino/dao/LocacaoDAOFake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/ce/wcaquino/servicos/SPCService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/ce/wcaquino/entidades/Filme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ce/wcaquino/entidades/Filme.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/ce/wcaquino/entidades/Locacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ce/wcaquino/entidades/Locacao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/ce/wcaquino/servicos/LocacaoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ce/wcaquino/servicos/LocacaoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/ce/wcaquino/builders/LocacaoBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/ce/wcaquino/builders/LocacaoBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/ce/wcaquino/builders/UsuarioBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/ce/wcaquino/builders/UsuarioBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/ce/wcaquino/servicos/CalculoValorLocacaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/ce/wcaquino/servicos/CalculoValorLocacaoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/ce/wcaquino/servicos/LocacaoServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/ce/wcaquino/servicos/LocacaoServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/ce/wcaquino/servicos/LocacaoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/ce/wcaquino/servicos/LocacaoService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/br/ce/wcaquino/builders/UsuarioBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/br/ce/wcaquino/builders/UsuarioBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/br/ce/wcaquino/servicos/CalculoValorLocacaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/br/ce/wcaquino/servicos/CalculoValorLocacaoTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/br/ce/wcaquino/servicos/LocacaoServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/br/ce/wcaquino/servicos/LocacaoServiceTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/br/ce/wcaquino/dao/LocacaoDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/br/ce/wcaquino/dao/LocacaoDAOFake.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/br/ce/wcaquino/servicos/SPCService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/br/ce/wcaquino/builders/LocacaoBuilder.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,8 +27,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/br/ce/wcaquino/servicos/LocacaoServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="126" column="11" lean-forward="true" selection-start-line="126" selection-start-column="11" selection-end-line="126" selection-end-column="11" />
+            <state relative-caret-position="325">
+              <caret line="132" column="45" lean-forward="true" selection-start-line="132" selection-start-column="45" selection-end-line="132" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,10 +45,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/br/ce/wcaquino/servicos/CalculoValorLocacaoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
+            <state relative-caret-position="384">
               <caret line="42" column="37" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -69,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/ce/wcaquino/servicos/LocacaoService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-341">
-              <caret line="41" column="18" lean-forward="true" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
+            <state relative-caret-position="409">
+              <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2342#2343#0" expanded="true" />
@@ -113,8 +101,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/ce/wcaquino/dao/LocacaoDAOFake.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="119">
+              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -297,6 +285,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
@@ -429,20 +418,19 @@
       <option name="presentableId" value="Default" />
       <updated>1563368329704</updated>
       <workItem from="1563368331061" duration="22664000" />
-      <workItem from="1563888645132" duration="4808000" />
+      <workItem from="1563888645132" duration="5096000" />
     </task>
+    <task id="LOCAL-00001" summary="Inclusão mockito">
+      <created>1563910124229</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1563910124229</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CalculoValorLocacaoTest - 2019.07.23 at 15h 58m 24s.xml">
-      <configuration name="CalculoValorLocacaoTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LocacaoServiceTest_naoDeveAlugarFilmeParaNegativadoSPC - 2019.07.23 at 15h 59m 27s.xml">
-      <configuration name="LocacaoServiceTest.naoDeveAlugarFilmeParaNegativadoSPC" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LocacaoServiceTest_naoDeveAlugarFilmeParaNegativadoSPC - 2019.07.23 at 16h 00m 13s.xml">
-      <configuration name="LocacaoServiceTest.naoDeveAlugarFilmeParaNegativadoSPC" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="LocacaoServiceTest_naoDeveAlugarFilmeParaNegativadoSPC - 2019.07.23 at 16h 01m 59s.xml">
       <configuration name="LocacaoServiceTest.naoDeveAlugarFilmeParaNegativadoSPC" configurationId="JUnit" />
     </history-entry>
@@ -464,9 +452,18 @@
     <history-entry file="LocacaoServiceTest - 2019.07.23 at 16h 15m 46s.xml">
       <configuration name="LocacaoServiceTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="LocacaoServiceTest_naoDeveAlugarFilmeParaNegativadoSPC - 2019.07.23 at 16h 25m 45s.xml">
+      <configuration name="LocacaoServiceTest.naoDeveAlugarFilmeParaNegativadoSPC" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LocacaoServiceTest_naoDeveAlugarFilmeParaNegativadoSPC - 2019.07.23 at 16h 25m 59s.xml">
+      <configuration name="LocacaoServiceTest.naoDeveAlugarFilmeParaNegativadoSPC" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_TestesUnitarios - 2019.07.23 at 16h 26m 07s.xml">
+      <configuration name="All in TestesUnitarios" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27472000" />
+    <option name="totallyTimeSpent" value="27760000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -499,9 +496,9 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.22585924" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.48608837" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.32569557" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32569557" />
       <window_info anchor="right" id="Coverage" side_tool="true" weight="0.27155825" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -546,6 +543,12 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="Inclusão mockito" />
+    <option name="LAST_COMMIT_MESSAGE" value="Inclusão mockito" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/TestesUnitarios$All_in_TestesUnitarios.ic" NAME="All in TestesUnitarios Coverage Results" MODIFIED="1563889148253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
@@ -768,13 +771,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/ce/wcaquino/dao/LocacaoDAOFake.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/ce/wcaquino/servicos/SPCService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -796,36 +792,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/ce/wcaquino/servicos/LocacaoService.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/br/ce/wcaquino/servicos/CalculoValorLocacaoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-341">
-          <caret line="41" column="18" lean-forward="true" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
+        <state relative-caret-position="384">
+          <caret line="42" column="37" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2342#2343#0" expanded="true" />
-            <element signature="e#2372#2373#0" expanded="true" />
-            <element signature="e#2421#2422#0" expanded="true" />
-            <element signature="e#2453#2454#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/br/ce/wcaquino/servicos/LocacaoServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="126" column="11" lean-forward="true" selection-start-line="126" selection-start-column="11" selection-end-line="126" selection-end-column="11" />
+        <state relative-caret-position="325">
+          <caret line="132" column="45" lean-forward="true" selection-start-line="132" selection-start-column="45" selection-end-line="132" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/br/ce/wcaquino/servicos/CalculoValorLocacaoTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/ce/wcaquino/dao/LocacaoDAOFake.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="42" column="37" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
+        <state relative-caret-position="119">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/ce/wcaquino/servicos/LocacaoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2342#2343#0" expanded="true" />
+            <element signature="e#2372#2373#0" expanded="true" />
+            <element signature="e#2421#2422#0" expanded="true" />
+            <element signature="e#2453#2454#0" expanded="true" />
           </folding>
         </state>
       </provider>
