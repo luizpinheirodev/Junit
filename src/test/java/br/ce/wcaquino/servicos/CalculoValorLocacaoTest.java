@@ -11,7 +11,9 @@ import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
-import org.mockito.Mockito;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.MockitoAnnotations;
 
 import java.util.Arrays;
 import java.util.Collection;
@@ -24,7 +26,13 @@ import static org.hamcrest.CoreMatchers.is;
 @RunWith(Parameterized.class)
 public class CalculoValorLocacaoTest {
 
+    @InjectMocks
     private LocacaoService locacaoService;
+
+    @Mock
+    LocacaoDAO dao;
+    @Mock
+    SPCService spc;
 
     @Parameterized.Parameter
     public List<Filme> filmes;
@@ -35,12 +43,7 @@ public class CalculoValorLocacaoTest {
 
     @Before
     public void setup() {
-        locacaoService = new LocacaoService();
-        LocacaoDAO dao = Mockito.mock(LocacaoDAO.class);
-        locacaoService.setLocacaoDAO(dao);
-
-        SPCService spc = Mockito.mock(SPCService.class);
-        locacaoService.setSPCService(spc);
+        MockitoAnnotations.initMocks(this);
     }
 
     private static Filme filme1 = umFilme().agora();
@@ -52,7 +55,7 @@ public class CalculoValorLocacaoTest {
     private static Filme filme7 = umFilme().agora();
 
     @Parameterized.Parameters(name = "Teste {index} = {1} - {2}")
-    public static Collection<Object[]> getParametros(){
+    public static Collection<Object[]> getParametros() {
         return Arrays.asList(new Object[][]{
                 {Arrays.asList(filme1, filme2), 8.0, "2 filmes: Sem Descontos"},
                 {Arrays.asList(filme1, filme2, filme3), 11.0, "3 filmes: 25%"},

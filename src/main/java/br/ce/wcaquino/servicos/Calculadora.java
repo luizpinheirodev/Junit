@@ -18,4 +18,8 @@ public class Calculadora {
         }
         return a/b;
     }
+
+    public void imprime(){
+        System.out.println("Passei aqui");
+    }
 }
